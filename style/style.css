@@ -2,7 +2,11 @@
   box-sizing:border-box;
   margin:0;
   padding:0;
-  border:1px solid black;
+  /*border:1px solid black;*/
+  }
+  header a:hover, i.hover:hover{
+    background-color:#696969;
+    color: #008B8B;
   }
 body{
   background-color:#8FBC8F;
@@ -10,6 +14,9 @@ body{
 }
 h1, h2, h3, h4{
   font-family: 'Indie Flower', cursive;
+}
+i{
+  color: #696969;
 }
 /*header section*/
 nav {
@@ -19,7 +26,7 @@ nav {
   }
 nav a{
   text-decoration: none;
-  color: #008B8B;
+  color: #696969;
 }
 header img{
   padding: 5% 0;
@@ -28,19 +35,22 @@ header img{
 }
 header h1{
   font-size: 120px;
-  color: #696969;
+  color:#696969;
 }
 header h2{
   font-size: 80px;
-  color:#696969;
+  color:#008B8B;
 }
 header h3{
   font-size: 70px;
-  color:#696969;
+  color:#008B8B;
 }
 header h4{
-  font-size: 35px;
-  color:#696969;
+  font-size: 40px;
+  color:#008B8B;
+}
+.center-align{
+  text-align: center;
 }
 
 /* about me section*/
@@ -55,7 +65,7 @@ header h4{
 .about-box h2{
   text-align:center;
   font-size: 60px;
-  color:#696969;
+  color:#008B8B;
   line-height: : 4;
   }
   .about-box p{
@@ -88,22 +98,82 @@ header h4{
   font-size: 15px;
   color:#696969;
 }
+#skills h3, h2{
+  color:#008B8B;
+}
 
 /* experience */
 #experience{
-  padding: 0 5%;
+  padding: 0 5% 5% 0;
 }
 #experience h2{
   text-align:center;
+  font-size: 60px;
+  padding: 5%;
+  color: #008B8B;}
+
+#experience h3,#experience h4{
+  color: #008B8B;
+}
+#experience h3{
+  font-size: 25px;
+}
+#experience h4{
+  font-size: 20px;
+}
+#experience p{
+  color: #696969;
+}
+#experience i{
+  margin: 0 0 0 20%;
+}
+.experiencepad{
+  margin: 0 auto;
+  max-width: 1024px;
 }
 /* map */
 #map iframe{
   width:100%;
 }
 
+/* contact us */
+footer{
+  margin: 0 auto;
+  max-width: 600px;
+}
+footer h2{
+  text-align:center;
+  font-size: 60px;
+}
+footer input,
+footer label,
+footer textarea,
+footer button{
+  margin: 10px 0;
+}
+footer input,
+footer textarea{
+  margin: 0 0 10px 0;
+}
+footer label{
+  text-align:center;
+  margin: 10px 0 0 0;
+}
+/* footer social media links */
+.social-media{
+  font-size:20px;
+  margin-top: 6%;
+  }
+footer .fa{
+  padding:5%;
+}
+
 /* HELPERS */
 .align-center{
   text-align:center;
+}
+.align-right{
+  text-align: right;
 }
 .display-inline{
   display:inline-block;
