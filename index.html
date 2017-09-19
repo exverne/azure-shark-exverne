@@ -1,12 +1,132 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> WHICU Tree of Knowledge </title>
-    <link rel="stylesheet"  type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.4.1/gridlex.min.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://use.fontawesome.com/67342bd5ce.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
   </head>
   <body>
-    <h1> Kathryn McPhee </h1>
-    <h2> Critical Care Registered Nurse </h2>
-    <p> I'm a 35 y.o. ICU nurse from Australia with a love of dance, travel and chocolate. Fluent in English and Danish I am hoping to add coding to that list. </p>
+<!--- this is the header --->
+    <header id="home" class="grid-spaceAround-middle-noBottom align-center">
+<!--- this is the logo --->
+      <div class="col-6">
+        <img src="images/kathryn.jpg" alt="this is a random picture that unsplash chose for me"/>
+      </div>
+<!--- these are the header navigation links --->
+      <nav class="col-6">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+<!--- this is the introduction section --->
+      <div class="col-12">
+        <h2>Kathryn McPhee</h2>
+        <h1>Coding Novice</h1>
+      </div>
+      <div class="col-12">
+        <i class="fa fa-stethoscope fa-2x display-inline" aria-hidden="true"></i>
+        <h4 class="display-inline">Melbourne, Australia</h4>
+      </div>
+    </header>
+<!--- this is the'about' section --->
+    </section id="about">
+      <div class="about-box">
+        <h2>About Me</h2>
+          <p>I'm a 35 year old Intensive Care Nurse from Melbourne Australia. I love to dance, travel and my guilty pleasure is chocolate. Besides speaking English and Danish I'm hoping to add coding to my list of languages.</p>
+      </div>
+  <!--- this is the 'my skills' section  --->
+    <section id="skills">
+      <h2 class="skills-head">My Skills</h2>
+      <div class="grid-spaceAround padded-div">
+        <div class="col-4 ">
+          <i class="fa fa-stethoscope fa-2x" aria-hidden="true"></i>
+          <h3>Web Development</h3>
+          <p>Just a rookie. I have nearly finished my first site though...</p>
+        </div>
+        <div class="col-4">
+          <i class="fa fa-stethoscope fa-2x" aria-hidden="true"></i>
+          <h3>Graphic Design</h3>
+          <p>Curious and creative but no tangible experience.</p>
+        </div>
+        <div class="col-4">
+          <i class="fa fa-stethoscope fa-2x" aria-hidden="true"></i>
+          <h3>UX Strategy</h3>
+          <p>Working on it.</p>
+        </div>
+        <div class="col-4">
+          <i class="fa fa-stethoscope fa-2x" aria-hidden="true"></i>
+          <h3>Marketing strategy</h3>
+          <p>Marketing game needs some work.</p>
+        </div>
+        <div class="col-4">
+          <i class="fa fa-stethoscope fa-2x" aria-hidden="true"></i>
+          <h3>Social media</h3>
+          <p>Facebook and Instagram as user. Working on utilising them more.</p>
+        </div>
+        <div class="col-4">
+          <i class="fa fa-stethoscope fa-2x" aria-hidden="true"></i>
+          <h3>Photography</h3>
+          <p>Novice Photographer. Need to work on my sunset shots.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="experience">
+
+      <h2>My Experience</h2>
+      <div class="grid-spaceAround experiencepad">
+        <div class="col-1">
+          <i class="fa fa-stethoscope" aria-hidden="true"></i>
+        </div> <!-- .col-1 -->
+        <div class="col-4">
+          <h3>Personal Care Attendant</h3>
+          <h4>PCA</h4>
+        </div> <!-- .col-4 -->
+        <div class="col-7">
+          <p>Care of 18 residents in a Dementia Specific Nursing Hostel</p>
+        </div> <!-- .col-7 -->
+        <div class="col-1">
+          <i class="fa fa-stethoscope" aria-hidden="true"></i>
+        </div> <!-- .col-1 -->
+        <div class="col-4">
+          <h3>Registered Nurse</h3>
+          <h4>Western Health</h4>
+        </div> <!-- .col-4 -->
+        <div class="col-7">
+          <p>Graduate Nurse Program</p>
+      </div> <!-- .col-7 -->
+      <div class="col-1">
+        <i class="fa fa-stethoscope" aria-hidden="true"></i>
+      </div> <!-- .col-1 -->
+      <div class="col-4">
+          <h3>Critical Care Registered Nurse</h3>
+          <h4>Footscray ICU</h4>
+      </div> <!-- .col-4 -->
+      <div class="col-7">
+        <p>Care of critically ill patients</p>
+      </div> <!-- .col-7 -->
+    </div>
+    </section>
+    <section id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380059.5561632262!2d12.255814103766959!3d41.90973055559072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRome%2C+Metropolitan+City+of+Rome%2C+Italy!5e0!3m2!1sen!2sau!4v1505457357831" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+    <footer>
+      <h2>Contact Us</h2>
+      <form method="POST" action="http://formspree.io/exverne@hotmail.com">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" placeholder="Your Name">
+        <label for="email">Your Email</label>
+        <input type="email" name="email" id="email" placeholder="Your email">
+        <textarea name="message" placeholder="Your message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+     </footer>
   </body>
-  </html>
+</html>
