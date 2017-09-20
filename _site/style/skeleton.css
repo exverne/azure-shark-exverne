@@ -1,0 +1,47 @@
+/* GENERAL STYLES */
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+body{
+  /*fonts that you want applied to your entire body*/
+}
+h1, h2, h3, h4, h5, h6{
+  /*fonts i want for my heading*/
+  /*font stylesi want for my headings*/
+}
+a{
+  /*remove underline*/
+  /*change color*/
+}
+a:hover{
+  /*styles for links on hover*/
+}
+/*Header Styles*/
+header{
+  /*background styles*/
+  /*apply padding or margin*/
+}
+nav{
+  /*styles for the nav*/
+  /*background color*/
+  /*center or align text*/
+}
+nav a{
+  /*styles for links inside my nav*/
+}
+
+/*FIRST SECTION STYLES*/
+.about /*this calls the class of about the dot comes before the class name*/
+
+/*STYLES FOR FOOTER*/
+form{
+
+}
+input{
+
+}
+button{
+  
+}
